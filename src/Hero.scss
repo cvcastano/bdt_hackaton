@@ -1,0 +1,39 @@
+.hero {
+  height: 100vh;
+  width: 45vw;
+  display: flex;
+  color: white;
+  background: url("./images/background.png") center no-repeat;
+  background-size: cover;
+  position: relative;
+
+  &_content {
+    background-color: rgba(18, 97, 11, 0.7);
+    position: absolute;
+    width: 45vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+
+    &_quote-left {
+      color: green;
+      font-size: xx-large;
+      margin-bottom: 50px;
+    }
+    &_text {
+      display: flex;
+      align-self: center;
+      font-weight: 300;
+      line-height: 1.8;
+    }
+    &_quote-right {
+      color: white;
+      font-size: xx-large;
+      margin: 50px;
+      align-self: flex-end;
+      transform: rotate(45deg);
+    }
+  }
+}
