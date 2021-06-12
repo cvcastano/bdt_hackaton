@@ -11,11 +11,11 @@ function LogIn() {
             </div>
             <AccountTab
                 icon="fa-user-circle"
-                title="Developers"
+                title="developers"
                 text="Cuenta personas para entrar en el mundo dev" />
             <AccountTab
                 icon="fa-building"
-                title="Business"
+                title="business"
                 text="Tienes o perteneces a una compañía" />
         </section>
     );

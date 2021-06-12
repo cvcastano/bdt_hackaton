@@ -18,10 +18,12 @@
     &-title {
       color: black;
       font-weight: 500;
+      text-transform: capitalize;
     }
     &-paragraph {
       font-size: 16px;
       width: 250px;
+      color: darkgray;
     }
   }
   &_icon-arrow {
