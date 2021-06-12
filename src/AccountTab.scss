@@ -1,0 +1,44 @@
+.account-tab {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 30px;
+  width: 450px;
+  box-shadow: 2px 2px 5px 4px rgba(163, 161, 161, 0.1);
+  border-radius: 8px;
+
+  &_icon-user {
+    color: green;
+    font-size: 30px;
+    font-weight: 100;
+  }
+  &_text {
+    padding-left: 10px;
+    &-title {
+      color: black;
+      font-weight: 500;
+    }
+    &-paragraph {
+      font-size: 16px;
+      width: 250px;
+    }
+  }
+  &_icon-arrow {
+    color: green;
+    font-size: 18px;
+    padding: 20px;
+    opacity: 0;
+  }
+  &:hover {
+    border: green 1px solid;
+    box-shadow: none;
+    background-color: rgb(240, 246, 248);
+  }
+  &:hover &_icon-user {
+    font-weight: 900;
+  }
+  &:hover &_icon-arrow {
+    opacity: 1;
+  }
+}
