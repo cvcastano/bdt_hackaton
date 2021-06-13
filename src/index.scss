@@ -13,3 +13,11 @@ body {
   display: flex;
   font-size: 20px;
 }
+.form {
+  width: 55vw;
+  padding: 0 70px 70px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: rgb(103, 103, 103);
+}

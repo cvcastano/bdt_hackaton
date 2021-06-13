@@ -1,0 +1,55 @@
+.personal-info {
+  width: 55vw;
+  padding: 70px 70px 20px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: darkgray;
+  &_notice {
+    align-self: flex-end;
+  }
+  &_text {
+    padding-top: 90px;
+    width: 430px;
+    &-title {
+      color: black;
+      margin-bottom: 10px;
+    }
+  }
+}
+.terms_and_conditions {
+  padding: 20px 0 30px;
+}
+.checkbox {
+  margin-right: 20px;
+}
+.button {
+  outline: none;
+  border: none;
+  width: 450px;
+  height: 60px;
+  border-radius: 8px;
+  background-color: green;
+  color: whitesmoke;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.google-button {
+  outline: none;
+  border: none;
+  width: 450px;
+  height: 60px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: white;
+  box-shadow: 2px 3px 5px 4px rgba(163, 161, 161, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &-icon {
+    font-size: 25px;
+    position: relative;
+    right: 90px;
+  }
+}

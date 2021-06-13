@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function AccountTab(props) {
     return (
-        <Link to={`/login/${props.title}`}>
+        <Link to='/register/personal_info'>
             <div className="account-tab">
                 <i className={`account-tab_icon-user fas ${props.icon}`}></i>
                 <div className="account-tab_text">
