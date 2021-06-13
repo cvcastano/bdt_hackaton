@@ -1,10 +1,10 @@
-import PageTemplate from '../PageTemplate';
+import PageHeader from '../PageHeader';
 import './Location.scss';
 
 function Location(props) {
     return (
         <>
-            <PageTemplate
+            <PageHeader
                 name='location'
                 notice='paso 02/03'
                 title='Completa tu perfil'

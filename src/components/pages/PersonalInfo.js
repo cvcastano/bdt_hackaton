@@ -1,4 +1,4 @@
-import PageTemplate from '../PageTemplate';
+import PageHeader from '../PageHeader';
 import './PersonalInfo.scss';
 import InputGroup from '../InputGroup';
 import { FcGoogle } from 'react-icons/fc';
@@ -11,7 +11,7 @@ function PersonalInfo() {
             <Link to='/'>
                 <p className="return"> <i className="fas fa-arrow-left"></i> Volver</p>
             </Link>
-            <PageTemplate
+            <PageHeader
                 name='personal-info'
                 notice='paso 01/03 Personal Info.'
                 title='Registra tu cuenta individual'
