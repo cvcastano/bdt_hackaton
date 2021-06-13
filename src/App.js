@@ -8,17 +8,19 @@ function App() {
   return (
     <div className="app">
       <Hero />
-      <Switch>
-        <Route exact path='/'>
-          <Register />
-        </Route>
-        <Route path='/register/personal_info'>
-          <PersonalInfo />
-        </Route>
-        <Route path='/register/location'>
-          <Location />
-        </Route>
-      </Switch>
+      <main className="main">
+        <Switch>
+          <Route exact path='/'>
+            <Register />
+          </Route>
+          <Route path='/register/personal_info'>
+            <PersonalInfo />
+          </Route>
+          <Route path='/register/location'>
+            <Location />
+          </Route>
+        </Switch>
+      </main>
 
 
     </div>

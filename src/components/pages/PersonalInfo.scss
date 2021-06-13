@@ -1,22 +1,3 @@
-.personal-info {
-  width: 55vw;
-  padding: 0 70px 20px 100px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  color: darkgray;
-  &_notice {
-    align-self: flex-end;
-  }
-  &_text {
-    padding-top: 90px;
-    width: 430px;
-    &-title {
-      color: black;
-      margin-bottom: 10px;
-    }
-  }
-}
 .terms_and_conditions {
   padding: 20px 0 30px;
 }

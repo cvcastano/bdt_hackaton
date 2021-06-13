@@ -2,18 +2,15 @@ import PageHeader from '../PageHeader';
 import './PersonalInfo.scss';
 import InputGroup from '../InputGroup';
 import { FcGoogle } from 'react-icons/fc';
-import { Link } from 'react-router-dom';
 
 
 function PersonalInfo() {
     return (
-        <div>
-            <Link to='/'>
-                <p className="return"> <i className="fas fa-arrow-left"></i> Volver</p>
-            </Link>
+        <>
             <PageHeader
-                name='personal-info'
-                notice='paso 01/03 Personal Info.'
+                url='/'
+                notice='paso 01/03'
+                name='personal info'
                 title='Registra tu cuenta individual'
                 paragraph='Para poder revisar que se trata de una cuenta real, necesitamos la siguiente información'
             />
@@ -49,9 +46,9 @@ function PersonalInfo() {
                 <button type="button" className="google-button">
                     <i className="google-button-icon"><FcGoogle /></i> Regístrate con Google
                 </button>
-
             </form>
-        </div>
+        </>
+
 
     );
 }
