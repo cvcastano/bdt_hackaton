@@ -1,4 +1,4 @@
-import './Register.scss';
+import '../components/pages/Register.scss';
 
 function PageTemplate(props) {
     return (

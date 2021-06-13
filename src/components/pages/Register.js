@@ -1,5 +1,5 @@
 import './Register.scss';
-import AccountTab from './AccountTab';
+import AccountTab from '../AccountTab';
 
 function Register() {
     return (

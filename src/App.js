@@ -1,7 +1,7 @@
-import Hero from './Hero';
-import Register from './Register';
-import PersonalInfo from './PersonalInfo';
-import Location from './Location';
+import Hero from './components/pages/Hero';
+import Register from './components/pages/Register';
+import PersonalInfo from './components/pages/PersonalInfo';
+import Location from './components/pages/Location';
 import { Route, Switch } from 'react-router-dom';
 
 function App() {

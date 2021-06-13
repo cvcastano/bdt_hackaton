@@ -1,4 +1,4 @@
-import PageTemplate from './PageTemplate';
+import PageTemplate from '../PageTemplate';
 import './Location.scss';
 
 function Location(props) {

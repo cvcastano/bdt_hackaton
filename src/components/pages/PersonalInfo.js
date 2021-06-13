@@ -1,17 +1,15 @@
-import PageTemplate from './PageTemplate';
+import PageTemplate from '../PageTemplate';
 import './PersonalInfo.scss';
-import InputGroup from './InputGroup';
+import InputGroup from '../InputGroup';
 import { FcGoogle } from 'react-icons/fc';
 import { Link } from 'react-router-dom';
 
 
 function PersonalInfo() {
     return (
-
         <div>
-                       
             <Link to='/'>
-            <p className="return"> <i className="fas fa-arrow-left"></i> Volver</p>
+                <p className="return"> <i className="fas fa-arrow-left"></i> Volver</p>
             </Link>
             <PageTemplate
                 name='personal-info'
