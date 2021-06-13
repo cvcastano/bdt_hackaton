@@ -1,26 +1,34 @@
 .page_header {
-    width: 55vw;
-    padding: 70px 70px 70px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  color: darkgray;
+  &-navigation {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    color: darkgray;
-  
-    &_notice {
-      align-self: flex-end;
-      a {
-        color: green;
-      }
+    width: 100%;
+    justify-content: space-between;
+    &-return {
+      color: rgb(103, 103, 103);
     }
-    &_text {
-      padding-top: 120px;
-      width: 430px;
-      &-title {
-        color: black;
-        margin-bottom: 10px;
-      }
-      &-paragraph {
-        margin-bottom: 20px;
-      }
+    &-notice {
+      display: flex;
+      text-transform: uppercase;
+      align-self: flex-end;
     }
   }
+  &-name {
+    align-self: flex-end;
+  }
+  &-text {
+    padding-top: 120px;
+    width: 430px;
+    &-title {
+      color: black;
+      margin-bottom: 10px;
+    }
+    &-paragraph {
+      margin-bottom: 20px;
+    }
+  }
+}
