@@ -40,7 +40,7 @@ function PersonalInfo() {
                     <input className="checkbox" type="checkbox" id='checkbox' />
                     <label htmlFor="checkbox">Acepto los términos y condiciones</label>
                 </div>
-                <button type="button" className="button">
+                <button type="button" className="register_button">
                     Registrar cuenta
                 </button>
                 <button type="button" className="google-button">
