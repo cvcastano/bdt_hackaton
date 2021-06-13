@@ -9,8 +9,8 @@ function PersonalInfo() {
         <>
             <PageHeader
                 url='/'
-                notice='paso 01/03'
-                name='personal info'
+                notice='Paso 01/03'
+                name='Personal info'
                 title='Registra tu cuenta individual'
                 paragraph='Para poder revisar que se trata de una cuenta real, necesitamos la siguiente información'
             />
