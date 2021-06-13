@@ -1,26 +1,17 @@
-.location {
-    width: 55vw;
-    padding: 70px 70px 70px 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    color: darkgray;
-  
-    &_notice {
-      align-self: flex-end;
-      a {
-        color: green;
-      }
-    }
-    &_text {
-      padding-top: 120px;
-      width: 430px;
-      &-title {
-        color: black;
-        margin-bottom: 10px;
-      }
-      &-paragraph {
-        margin-bottom: 20px;
-      }
-    }
-  }
+.save_button {
+  outline: none;
+  border: none;
+  width: 450px;
+  height: 60px;
+  border-radius: 8px;
+  background-color: green;
+  color: whitesmoke;
+  font-size: 16px;
+  margin: 30px 0 40px;
+}
+.fa-user-lock {
+  width: 450px;
+  color: darkgray;
+  font-size: 16px;
+  text-align: center;
+}
