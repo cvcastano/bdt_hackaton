@@ -4,7 +4,11 @@ import InputGroup from '../InputGroup';
 import { FcGoogle } from 'react-icons/fc';
 
 
-function PersonalInfo() {
+function PersonalInfo(props) {
+
+
+ 
+
     return (
         <>
             <PageHeader
@@ -21,13 +25,15 @@ function PersonalInfo() {
                     placeholder='Enter name'
                     type='text'
                     name='name'
+                    handleInput={props.handleInput}
                 />
                 <InputGroup
                     id='email'
                     text='Correo electrónico*'
                     placeholder='Enter email'
-                    type='emailt'
+                    type='email'
                     name='email'
+                    handleInput={props.handleInput}
                 />
                 <InputGroup
                     id='password'
@@ -35,12 +41,13 @@ function PersonalInfo() {
                     placeholder='Enter password'
                     type='password'
                     name='password'
+                    handleInput={props.handleInput}
                 />
                 <div className="terms_and_conditions">
                     <input className="checkbox" type="checkbox" id='checkbox' />
                     <label htmlFor="checkbox">Acepto los términos y condiciones</label>
                 </div>
-                <button type="button" className="register_button">
+                <button type="button" className="register_button" onClick={props.emailValidation}>
                     Registrar cuenta
                 </button>
                 <button type="button" className="google-button">
