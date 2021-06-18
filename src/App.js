@@ -4,6 +4,7 @@ import PersonalInfo from './components/pages/PersonalInfo';
 import Location from './components/pages/Location';
 import { Route, Switch } from 'react-router-dom';
 import { useState } from 'react';
+import ModalUps from './components/pages/ModalUps';
 
 function App() {
   const [name, setName] = useState('');
@@ -45,6 +46,7 @@ function App() {
               handleInput={handleInput}
               emailValidation={emailValidation}
             />
+            <ModalUps />
           </Route>
           <Route path='/register/location'>
             <Location />
